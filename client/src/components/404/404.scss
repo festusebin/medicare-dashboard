@@ -15,16 +15,16 @@
     width: 100px;
     padding: 1rem;
     color: $white;
-    background: $primaryColor; /* fallback for old browsers */
+    background: #fc466b; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      $secondaryColor,
-      $primaryColor
+      #3f5efb,
+      #fc466b
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(
       to right,
-      $secondaryColor,
-      $primaryColor
+      #3f5efb,
+      #fc466b
     ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 0.5rem;
     animation: float 3s ease-in-out infinite;
@@ -34,7 +34,7 @@
     &:hover {
       opacity: 0.9;
       transition: all 0.25s ease 0s;
-      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
     }
 
     @keyframes float {

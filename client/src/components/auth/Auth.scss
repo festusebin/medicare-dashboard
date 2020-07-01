@@ -133,6 +133,10 @@
   }
 }
 
+.text-link {
+  text-align: center;
+}
+
 @media (max-width: 800px) {
   .bottom-group {
     flex-direction: column;
@@ -156,4 +160,16 @@
   .base-wrapper {
     background-size: cover;
   }
+
+  .auth-header {
+    font-size: 24px;
+  }
+  .text-link {
+    font-size: 14px;
+  }
+
+  .link {
+    font-size: 14px;
+  }
+
 }

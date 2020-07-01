@@ -9,5 +9,26 @@
 }
 
 .center {
-  width: 150px;
+  width: 130px;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    flex-direction: column;
+    padding-left: 0px;
+  }
+
+  .center {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .logo {
+    background-size: cover;
+  }
+
+  .center {
+    width: 100px;
+  }
 }

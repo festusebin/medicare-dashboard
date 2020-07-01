@@ -77,6 +77,7 @@ class Login extends Component {
                 error={errors.email}
                 id="email"
                 type="email"
+                placeholder="Email Address"
                 className="auth-input"
               />
               <div className="auth-error">
@@ -95,6 +96,7 @@ class Login extends Component {
                 error={errors.password}
                 id="password"
                 type="password"
+                placeholder="Password"
                 className="auth-input"
               />
               <div className="auth-error">
@@ -110,10 +112,11 @@ class Login extends Component {
             </button>
           </div>
           <div className="bottom-group">
-          <p>Don't have an account,</p>
+          <p className="text-link">Don't have an account,
             <Link to="/register" className="link">
               Sign up
             </Link>
+          </p>
           </div>
         </form>
       </div>

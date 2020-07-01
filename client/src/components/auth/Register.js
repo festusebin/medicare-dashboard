@@ -68,6 +68,7 @@ class Register extends Component {
                 error={errors.name}
                 id="name"
                 type="text"
+                placeholder="Full Name"
                 className="auth-input"
               />
               <div className="auth-error">{errors.name}</div>
@@ -83,6 +84,7 @@ class Register extends Component {
                 error={errors.email}
                 id="email"
                 type="email"
+                placeholder="Email Address"
                 className="auth-input"
               />
               <div className="auth-error">{errors.email}</div>
@@ -98,6 +100,7 @@ class Register extends Component {
                 error={errors.password}
                 id="password"
                 type="password"
+                placeholder="Password"
                 className="auth-input"
               />
               <div className="auth-error">{errors.password}</div>
@@ -113,6 +116,7 @@ class Register extends Component {
                 error={errors.password2}
                 id="password2"
                 type="password"
+                placeholder="Confirm Password"
                 className="auth-input"
               />
               <div className="auth-error">{errors.password2}</div>
@@ -126,7 +130,7 @@ class Register extends Component {
             </button>
           </div>
           <div className="bottom-group">
-            <p>Already have an account,
+            <p className="text-link">Already have an account,
               <Link to="/" className="link">
                 Login
               </Link>
